@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  height: 100vh;
+  background: linear-gradient(
+    140deg,
+    rgba(101, 44, 209, 1) 0%,
+    rgba(18, 24, 38, 1) 18%,
+    rgba(18, 24, 38, 1) 79%,
+    rgba(101, 44, 209, 1) 100%
+  );
+  flex-direction: column; /* Altura del viewport */
+}
+.container {
+  background-color: #212936;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px #a1a1a9 solid;
+}
+
+.title_container {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #e5e7eb;
+}
+
+.label-inputName {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #a1a1a9;
+}
+
+.label-inputEmail {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #a1a1a9;
+}
+
+.inputName {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: #4d5562;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px #4d5562 solid;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.inputEmail {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: #4d5562;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px #4d5562 solid;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.buttonNext {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  width: 130px;
+  margin-top: 40px;
+  margin: auto auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #845eee;
+  color: #e5e7eb;
+}
+
+.footerContainer {
+  width: 500px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleFooter {
+  color: #4d5562;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.footerDiv {
+  width: 10px;
+  background-color: #845eee;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 5px;
+  height: 10px;
+}
+
+.active {
+  border: 5px solid rgba(47, 34, 81, 0.304);
+  border-radius: 20px;
+}
